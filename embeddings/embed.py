@@ -89,5 +89,5 @@ class Embedding:
         corpus_fingerprint = "|".join(documents[:100])  
         fingerprint_str = f"{corpus_fingerprint}|len={len(documents)}"
         return hashlib.md5(fingerprint_str.encode()).hexdigest()
-
+    
 

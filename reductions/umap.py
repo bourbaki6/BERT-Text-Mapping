@@ -87,3 +87,5 @@ class DimReducer:
         logger.debug("Viz projection shape: %s", viz_reduced.shape)
         
         return viz_reduced.astype(np.float32)
+
+
