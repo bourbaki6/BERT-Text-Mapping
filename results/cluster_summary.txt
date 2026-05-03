@@ -1,0 +1,127 @@
+  BERT TEXT CLUSTERING — RESULTS SUMMARY
+
+EVALUATION METRICS
+  n_documents                         300.0000
+  n_clusters                          10.0000
+  noise_points                        0.0000
+  silhouette_score                    0.4072
+  davies_bouldin_index                0.7688
+  calinski_harabasz_score             80.9841
+  avg_cluster_size                    30.0000
+  min_cluster_size                    7.0000
+  max_cluster_size                    186.0000
+  cluster_size_std                    52.2226
+
+CLUSTERS FOUND: 10
+TOTAL DOCUMENTS: 300
+
+CLUSTER 0: Carbon / Health / Heat
+  Size : 186 documents
+ Keywords : carbon, health, heat, energy, emissions, radiation, learn, technology
+Representative documents:
+    Carbon pricing assigns a cost to emissions to incentivize
+    cleaner alternatives.
+    Carbon capture technology removes CO2 from the atmosphere or
+    industrial emissions.
+    Climate refugees are being displaced by rising seas and
+    extreme heat.
+
+CLUSTER 1: Models / Language Models / Language
+  Size : 15 documents
+ Keywords : models, language models, language, text, ai, token, allow, tasks
+Representative documents:
+    Hallucination refers to language models generating confident
+    but factually wrong content.
+    Open-source language models allow broader access and
+    customization than proprietary ones.
+    Token prediction is the fundamental training signal for most
+    modern language models.
+
+CLUSTER 2: Model / Pretrained Model / Model Behaviour
+  Size : 15 documents
+ Keywords : model, pretrained model, model behaviour, language model, behaviour, pretrained, size, weights
+Representative documents:
+    Model compression enables deployment on edge devices with
+    limited compute.
+    Tokenization splits text into subword units that the model
+    processes as discrete tokens.
+    Context window size determines how much text a language
+    model can process at once.
+
+CLUSTER 3: Space / Telescope / Space Telescope
+  Size : 9 documents
+ Keywords : space, telescope, space telescope, universe, risks, point, missions, probes
+Representative documents:
+    The space race between the US and USSR culminated in the
+    Apollo 11 moon landing.
+    The International Space Station has been continuously
+    inhabited since October 2000.
+    The Voyager probes have traveled beyond the heliopause into
+    interstellar space.
+
+CLUSTER 4: Cooking / Water / Flavour
+  Size : 13 documents
+ Keywords : cooking, water, flavour, times, cooking times, precise, meat, adds flavour
+Representative documents:
+    Sous vide cooking holds food at precise temperature in a
+    water bath for consistent results.
+    Pressure cookers cut cooking times dramatically by raising
+    the boiling point of water.
+    Cooking vegetables in their own juices concentrates flavour
+    through a fond.
+
+CLUSTER 5: War / World / World War
+  Size : 11 documents
+ Keywords : war, world, world war, cold war, people, transformed, cold, nuclear
+Representative documents:
+    World War One was triggered by the assassination of Archduke
+    Franz Ferdinand in Sarajevo.
+    The Ottoman Empire lasted over six centuries before
+    dissolving after World War One.
+    Decolonization after World War Two transformed dozens of
+    nations across Africa and Asia.
+
+CLUSTER 6: Training / Data / Sets
+  Size : 9 documents
+ Keywords : training, data, sets, activations, technique, prevention, red, selection
+Representative documents:
+    Batch normalization stabilizes training by normalizing
+    activations per mini-batch.
+    Dropout is a regularization technique that randomly zeroes
+    activations during training.
+    Synthetic data generation augments training sets where real
+    data is scarce.
+
+CLUSTER 7: Security / Attacks / Software
+  Size : 25 documents
+ Keywords : security, attacks, software, network, vulnerabilities, networks, access, systems
+Representative documents:
+    A firewall filters network traffic based on predefined
+    security rules.
+    Container security must address image vulnerabilities and
+    runtime privilege escalation.
+    DevSecOps integrates security practices throughout the
+    software development lifecycle.
+
+CLUSTER 8: Price / Share / Earnings
+  Size : 7 documents
+ Keywords : price, share, earnings, share price, measures, annual, principal, profit
+Representative documents:
+    The price-to-earnings ratio compares a company's share price
+    to its annual earnings.
+    Dividend yield measures annual dividends relative to the
+    share price.
+    Market capitalization is calculated by multiplying share
+    price by shares outstanding.
+
+CLUSTER 9: Risk / Events / Cardiovascular
+  Size : 10 documents
+ Keywords : risk, events, cardiovascular, reduces, patterns, temperatures, authentication, portfolio
+Representative documents:
+    Statins lower LDL cholesterol and reduce the risk of
+    cardiovascular events.
+    eSports tournaments now attract audiences rivaling
+    traditional sporting events.
+    Athletics field events include javelin, discus, shot put,
+    and high jump.
+

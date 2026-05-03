@@ -1,0 +1,12 @@
+{
+  "n_documents": 300.0,
+  "n_clusters": 10.0,
+  "noise_points": 0.0,
+  "silhouette_score": 0.40717047452926636,
+  "davies_bouldin_index": 0.7688328546170443,
+  "calinski_harabasz_score": 80.984130859375,
+  "avg_cluster_size": 30.0,
+  "min_cluster_size": 7.0,
+  "max_cluster_size": 186.0,
+  "cluster_size_std": 52.22260047144339
+}
