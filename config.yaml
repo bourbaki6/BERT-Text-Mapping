@@ -1,0 +1,73 @@
+
+data:
+
+  input_path: "data/sample_corpus.txt"
+  max_docs: null
+  min_doc_length: 20
+  strip_html: true
+
+
+embeddings:
+  
+  model_name: "all-MiniLM-L6-v2"
+  batch_size: 64
+  normalize: true
+  cache_embeddings: true
+  cache_path: "cache/embeddings.npy"
+
+
+reduction:
+
+  enabled: true
+  n_neighbors: 15
+  n_components: 10
+  min_dist: 0.0
+  metric: "cosine"
+  random_state: 42
+  viz_n_components: 2
+  viz_n_neighbors: 15
+  viz_min_dist: 0.1
+
+
+clustering:
+ 
+  method: "hdbscan"
+  
+  hdbscan:
+  
+    min_cluster_size: 10
+    min_samples: null
+    metric: "euclidean"
+    noise_handling: "nearest"
+
+  kmeans:
+    
+    n_clusters: 10
+    n_init: 10
+    max_iter: 300
+    random_state: 42
+
+
+labelling:
+ 
+  method: "tfidf"
+  top_n_keywords: 8
+  use_ngrams: true
+  ngram_range: [1, 2]
+  keybert_diversity: 0.5
+
+evaluation:
+
+  silhouette: true
+  davies_bouldin: true
+  calinski_harabasz: true
+  max_sample_for_metrics: 5000
+
+
+output:
+ 
+  results_dir: "results"
+  visualise: true
+  save_cluster_csv: true
+  save_document_map: true
+  save_report: true
