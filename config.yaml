@@ -1,11 +1,9 @@
 
 data:
-
-  input_path: "data/sample_corpus.txt"
+  input_path: "demo"     
   max_docs: null
   min_doc_length: 20
   strip_html: true
-
 
 embeddings:
   

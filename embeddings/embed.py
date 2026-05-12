@@ -64,7 +64,7 @@ class Embedding:
         )
  
         if self.normalize:
-            logger.debug("\n Applying L2 normalization t o  embeddings")
+            logger.debug("\n Applying L2 normalization to  embeddings")
             embeddings = normalize(embeddings, norm = "l2")
  
         embeddings = embeddings.astype(np.float32)
